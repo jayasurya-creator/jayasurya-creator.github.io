@@ -54,7 +54,7 @@ cd <repo-name>
 
 - Email: `jayasurya6291@gmail.com`
 - LinkedIn: `https://www.linkedin.com/in/jayasurya202`
-- GitHub: `https://github.com/jayasur4607v`
+- GitHub: `https://github.com/jayasurya-creator`
 
 ## 📝 Notes
 
