@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayasurya | Certificates</title>
+  <meta name="description"
+    content="Certificates and credentials earned by Jayasurya in web development, IoT, and electronics." />
+  <link rel="icon" href="javascript-39424.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav id="navbar">
+    <div class="logo">
+      <a href="index.html" class="logo-link">
+        <img src="javascript-39424.png" alt="logo" class="logo-img" />
+      </a>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="certificates.html" class="active-link">Certificates</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li>
+        <a href="resume.pdf" download class="nav-resume-btn">
+          <span class="resume-icon">📄</span> Resume
+        </a>
+      </li>
+    </ul>
+
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+
+  <!-- ==============================
+       CERTIFICATES HERO
+  ============================== -->
+  <section id="cert-hero">
+    <div class="container">
+      <h1 class="section-title" style="margin-bottom: 0.5rem;">My <span>Certificates</span></h1>
+      <p class="cert-subtitle">A collection of credentials and certifications I've earned through courses and training
+        programs.</p>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       FILTER TABS
+  ============================== -->
+  <section id="cert-filters">
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="participation">Participation</button>
+        <button class="filter-btn" data-filter="completion">Completion</button>
+        <button class="filter-btn" data-filter="internship">Internship</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       CERTIFICATES GRID
+  ============================== -->
+  <section id="certificates">
+    <div class="container">
+
+      <!--
+        ✏️ HOW TO EDIT A CERTIFICATE CARD:
+        1. Change the title in <h3>
+        2. Change the issuing organisation in <p class="cert-issuer">
+        3. Change the date in <span class="cert-date">
+        4. Change data-img="certificates/your-image.jpg" to your certificate image path
+           (put your certificate images in a "certificates" folder)
+        5. The data-category attribute controls which filter tab shows the card:
+           "participation", "completion", or "internship"
+        6. To ADD a certificate: copy one card block and paste in the correct category
+        7. To REMOVE: delete the whole <div class="cert-card"> block
+      -->
+
+
+      <!-- ═══════════════════════════════
+           PARTICIPATION CERTIFICATES
+      ═══════════════════════════════ -->
+      <h2 class="category-title" data-cat="participation">
+        <span class="cat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </span>
+        Certificate of Participation
+      </h2>
+
+      <div class="cert-grid" data-cat="participation">
+
+        <div class="cert-card" data-category="participation">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/participation-1.jpg">View</button>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="participation">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/participation-2.jpg">View</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ═══════════════════════════════
+           COMPLETION CERTIFICATES
+      ═══════════════════════════════ -->
+      <h2 class="category-title" data-cat="completion">
+        <span class="cat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </span>
+        Certificate of Completion
+      </h2>
+
+      <div class="cert-grid" data-cat="completion">
+
+        <div class="cert-card" data-category="completion">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/completion-1.jpg">View</button>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="completion">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/completion-2.jpg">View</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ═══════════════════════════════
+           INTERNSHIP CERTIFICATES
+      ═══════════════════════════════ -->
+      <h2 class="category-title" data-cat="internship">
+        <span class="cat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </span>
+        Certificate of Internship
+      </h2>
+
+      <div class="cert-grid" data-cat="internship">
+
+        <div class="cert-card" data-category="internship">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/internship-1.jpg">View</button>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="internship">
+          <div class="cert-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="cert-info">
+            <h3>Certificate Name</h3>
+            <p class="cert-issuer">Issuing Organisation</p>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn-outline btn-sm view-cert-btn" data-img="certificates/internship-2.jpg">View</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       IMAGE LIGHTBOX MODAL
+  ============================== -->
+  <div class="lightbox-overlay" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <div class="lightbox-content">
+      <img src="" alt="Certificate" id="lightboxImg" />
+    </div>
+  </div>
+
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer>
+    <p>© 2025 <span>Jayasurya</span>. All rights reserved.</p>
+    <a href="index.html">← Back to Home</a>
+  </footer>
+
+  <script>
+    // ─── HAMBURGER MENU ─────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+
+
+    // ─── FILTER TABS ────────────────────────
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const certCards = document.querySelectorAll('.cert-card');
+    const categoryTitles = document.querySelectorAll('.category-title');
+    const certGrids = document.querySelectorAll('.cert-grid');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Update active button
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+
+        if (filter === 'all') {
+          // Show everything
+          certCards.forEach(card => {
+            card.style.display = 'flex';
+          });
+          categoryTitles.forEach(title => title.style.display = 'flex');
+          certGrids.forEach(grid => grid.style.display = 'grid');
+        } else {
+          // Show only matching category
+          certCards.forEach(card => {
+            card.style.display = card.dataset.category === filter ? 'flex' : 'none';
+          });
+          categoryTitles.forEach(title => {
+            title.style.display = title.dataset.cat === filter ? 'flex' : 'none';
+          });
+          certGrids.forEach(grid => {
+            grid.style.display = grid.dataset.cat === filter ? 'grid' : 'none';
+          });
+        }
+
+        // Re-trigger scroll animations
+        reObserveCards();
+      });
+    });
+
+
+    // ─── SCROLL ANIMATION ───────────────────
+    function reObserveCards() {
+      const visibleCards = document.querySelectorAll('.cert-card[style*="display: flex"], .cert-card:not([style])');
+      visibleCards.forEach(card => {
+        card.classList.remove('cert-visible');
+        card.style.transitionDelay = '0s';
+        certObserver.observe(card);
+      });
+    }
+
+    const certObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transitionDelay = `${index * 0.08}s`;
+          entry.target.classList.add('cert-visible');
+          certObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    certCards.forEach(card => certObserver.observe(card));
+
+
+    // ─── LIGHTBOX MODAL ─────────────────────
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+
+    document.querySelectorAll('.view-cert-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const imgSrc = btn.dataset.img;
+        lightboxImg.src = imgSrc;
+        lightbox.classList.add('lightbox-open');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    // Close lightbox
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove('lightbox-open');
+      document.body.style.overflow = '';
+      // Clear src after animation
+      setTimeout(() => { lightboxImg.src = ''; }, 300);
+    }
+  </script>
+
+</body>
+
+</html>
